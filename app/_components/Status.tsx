@@ -1,10 +1,4 @@
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Wrapper } from './Wrapper';
 import { SCHOOL_PROJECTS, SIDE_PROJECTS } from '@/data/datas';
 import { Project } from './Project';

@@ -63,7 +63,7 @@ export const Header = () => {
 
         <SheetContent side={'right'}>
           <div className='flex flex-col items-center mt-16 gap-16 text-4xl font-caption'>
-            <Link href={'/home'}>HOME</Link>
+            <Link href={'/'}>HOME</Link>
             <Link href={'/about'}>ABOUT</Link>
           </div>
         </SheetContent>

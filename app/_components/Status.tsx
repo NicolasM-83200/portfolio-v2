@@ -5,7 +5,7 @@ import { Project } from './Project';
 
 export const Status = () => {
   return (
-    <Wrapper className='flex max-md:flex-col gap-4'>
+    <Wrapper className='flex gap-4 max-md:flex-col'>
       <Card className='w-full'>
         <CardHeader>
           <CardTitle>Projets de Formations</CardTitle>

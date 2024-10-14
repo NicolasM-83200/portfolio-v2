@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer>
       <Wrapper className='grid'>
-        <p className='p-6 place-self-center text-center'>
+        <p className='place-self-center p-6 text-center'>
           © Manigand Nicolas - {new Date().getFullYear()} - Tous droits réservés
         </p>
       </Wrapper>

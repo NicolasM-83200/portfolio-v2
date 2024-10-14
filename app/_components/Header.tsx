@@ -12,9 +12,9 @@ export const Header = () => {
     <header className='py-4'>
       <Sheet>
         <Wrapper className='flex items-end'>
-          <span className='relative text-xl tracking-wider font-bold text-foreground'>
+          <span className='relative text-xl font-bold tracking-wider text-foreground'>
             ManiganD
-            <span className='absolute font-normal tracking-normal font-caption text-md top-[-15px] left-1/2 translate-x-[-50%]'>
+            <span className='absolute left-1/2 top-[-15px] -translate-x-1/2 font-caption font-normal tracking-normal'>
               Nicolas
             </span>
           </span>
@@ -62,7 +62,7 @@ export const Header = () => {
         </Wrapper>
 
         <SheetContent side={'right'}>
-          <div className='flex flex-col items-center mt-16 gap-16 text-4xl font-caption'>
+          <div className='mt-16 flex flex-col items-center gap-16 font-caption text-4xl'>
             <Link href={'/'}>HOME</Link>
             <Link href={'/about'}>ABOUT</Link>
           </div>

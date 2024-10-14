@@ -30,7 +30,7 @@ export default function RootLayout({
       >
         <Background />
         <Header />
-        <main className='flex-grow'>{children}</main>
+        <main className='grow'>{children}</main>
         <Footer />
       </body>
     </html>

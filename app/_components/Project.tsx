@@ -20,9 +20,9 @@ type ProjectProps = {
 export const Project = (props: ProjectProps) => {
   return (
     <Popover>
-      <PopoverTrigger className='inline-flex items-center gap-2 hover:bg-accent/50 rounded transition-colors p-1'>
+      <PopoverTrigger className='inline-flex items-center gap-2 rounded p-1 transition-colors hover:bg-accent/50'>
         <span
-          className={`bg-accent text-accent-foreground rounded-sm ${
+          className={`rounded-sm bg-accent text-accent-foreground ${
             props.Logo ? 'p-2' : 'p-0'
           }`}
         >
@@ -33,16 +33,16 @@ export const Project = (props: ProjectProps) => {
               width={600}
               height={600}
               alt={props.title}
-              className='w-10 rounded-sm aspect-square object-cover'
+              className='aspect-square w-10 rounded-sm object-cover'
             />
           )}
         </span>
-        <div className='w-[80%] text-start'>
+        <div className='w-4/5 text-start'>
           <p className='text-sm font-semibold'>{props.title}</p>
           <p className='text-xs text-muted-foreground'>{props.description}</p>
         </div>
       </PopoverTrigger>
-      <PopoverContent className='w-80 flex flex-col items-center gap-4'>
+      <PopoverContent className='flex w-80 flex-col items-center gap-4'>
         {props.Logo && <props.Logo size={24} />}
         {props.image && (
           <Image
@@ -50,7 +50,7 @@ export const Project = (props: ProjectProps) => {
             width={600}
             height={600}
             alt={props.title}
-            className='rounded-sm aspect-square object-cover'
+            className='aspect-square rounded-sm object-cover'
           />
         )}
         {props.url && (
@@ -64,7 +64,7 @@ export const Project = (props: ProjectProps) => {
             {props.url}
             <ArrowUpRight
               size={16}
-              className='group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform'
+              className='transition-transform group-hover:-translate-y-1 group-hover:translate-x-1'
             />
           </Link>
         )}

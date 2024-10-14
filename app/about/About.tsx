@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <Wrapper>
       <Spacing size='md' />
-      <div className='flex flex-col space-y-6 max-w-[60ch] mx-auto text-sm text-justify *:first-letter:text-xl'>
+      <div className='mx-auto flex max-w-[60ch] flex-col space-y-6 text-justify text-sm *:first-letter:text-xl'>
         <p className='leading-snug'>
           👩🏻‍💼 Je suis Nicolas, Développeur Full-Stack spécialisé en technologies
           React et Node.js.👇
@@ -13,18 +13,19 @@ export const About = () => {
         <p className='leading-snug'>
           ⚡ Je me suis plongé dans le monde du développement en suivant ma
           passion pour la création de solutions innovantes. Mon parcours a
-          débuté avec un intérêt marqué pour la programmation lorsque j'étudiais
-          pour mon BTS électronique puis ensuite en hobby sur divers langages
-          tels que JavaScript, C (Arduino), un peu de Python (Raspberry Pi) et
-          MQL4 (spécifique aux plateformes de trading, ex. robot de trading).
+          débuté avec un intérêt marqué pour la programmation lorsque
+          j&apos;étudiais pour mon BTS électronique puis ensuite en hobby sur
+          divers langages tels que JavaScript, C (Arduino), un peu de Python
+          (Raspberry Pi) et MQL4 (spécifique aux plateformes de trading, ex.
+          robot de trading).
         </p>
         <p className='leading-snug'>
           👩🏻‍💻 Avec une formation solide en JavaScript / React et une expérience
-          pratique dans la réalisation de mes projets de formation, j'ai
+          pratique dans la réalisation de mes projets de formation, j&apos;ai
           consolidé mes compétences en développement full-stack.
         </p>
         <p className='leading-snug'>
-          💡 Au fil de mon parcours, j'ai acquis une expertise dans :
+          💡 Au fil de mon parcours, j&apos;ai acquis une expertise dans :
         </p>
         <ul className='ml-8 space-y-1'>
           <li className='list-["🌐"]'>
@@ -45,7 +46,8 @@ export const About = () => {
           </li>
           <li className='list-["👥"]'>
             <p className='ml-4'>
-              Collaboration au sein d'équipes dynamiques et multidisciplinaires
+              Collaboration au sein d&apos;équipes dynamiques et
+              multidisciplinaires
             </p>
           </li>
         </ul>
